@@ -1,0 +1,100 @@
+body{
+    background-color: slategray ;
+    padding: 10;
+}
+
+.topnav {
+    overflow: hidden;
+}
+.topnav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #c52233;
+
+}
+
+.flex{
+    display: flex;
+}
+.start{
+  justify-content: flex-start;
+}
+
+.hBox {
+    flex-direction: row;
+    /* border: 1% steelblue; */
+}
+
+.center{
+  justify-content: center;
+}
+
+.vBox {
+    flex-direction: column;
+}
+.space{
+  justify-content: space-between;
+}
+.item{
+  flex-basis: 25%;
+  padding: 5px;
+  border: 1px solid black;
+  
+}
+.item ul li {
+    list-style-type: none;
+    margin: 5px;
+}
+.item ul li a{
+  text-decoration: none;
+  color: white;
+  
+}
+.item button{
+  padding: 5px;
+}
+
+#resultado{
+  flex-basis: 50%;
+  border: 1px solid black;
+}
+#content{
+  margin-top: 5%;
+}
+#logo{
+  width: 20%;
+  height: 20%;
+}
+header{
+  width:100%;
+  background-color: #1f2041;
+  font-size: 1.5em;
+  color: white;
+}
+.Bugigangas ul{
+  padding-left: 0;
+}
+.Bugigangas2 ul{
+  padding-right: 0;
+  text-align: center;
+  float: right;
+  clear: right;
+}
+
+.Menu_de_opcoes img{
+  width: 56px;
+}
+
+
